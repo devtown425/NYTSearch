@@ -1,3 +1,19 @@
 body{
+    width: 100vw;
+    height: 100vh;
     background-color: goldenrod;
+}
+
+footer {
+    border: 1px solid black;
+    background-color: white;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 80vw;
+    background-color: white;
 }

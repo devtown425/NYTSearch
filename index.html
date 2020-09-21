@@ -7,11 +7,52 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="container">
 
+        <form>
+            <div class="row">
+                <label class="col-md-12" for="searchTerm">Search Term: </label>
+                <br>
+            </div>
+            <div class="row">
+                <input class="col-md-12" type="text" id="searchTerm" name="searchTerm"><br>
+            </div>
+            <div class="row">
+                <label class="col-md-12" for="NumOfRecords">Number of Records to Retrieve: </label>
+                <br>
+            </div>
+            <div class="row">
+                <input class="col-md-12" type="number" id="NumOfRecords" name="NumOfRecords" min="1" max="10">
+            </div>
+            <div class="row">
+                <label class="col-md-12" for="startYear">Start Year (optional): </label>
+                <br>
+            </div>
+            <div class="row">
+                <input class="col-md-12" type="text" id="startYear" name="startYear">
+
+            </div>
+            <div class="row">
+                <label class="col-md-12" for="End Year">End Year (optional): </label><br>
+            </div>
+            <div class="row">
+                <input class="col-md-12" type="text" id="End Year" name="End Year">
+            </div>
+            <div class="row">
+                <input type="submit" value="Search">
+                <input type="submit" value="Clear Results">
+            </div>
+        </form>
+        <br>
+
+    </div>
+    <footer>
+        <h6>Made with lots of ❤️️</h6>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -22,7 +63,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
