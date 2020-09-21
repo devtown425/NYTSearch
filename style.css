@@ -1,6 +1,6 @@
 .navbar {
     height: 12vw;
-    background-color: rgb(45, 40, 105);
+    background: linear-gradient(black, rgba(45, 40, 105, 0.5)), url("https://storage.googleapis.com/afs-prod/media/media:6ca4c6d1ac81433191989939b4131e03/800.jpeg") ;
     color: white;
     
     font-weight: bold;
