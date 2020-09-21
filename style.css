@@ -16,7 +16,7 @@
 }
 
 .article-container {
-    background-image: linear-gradient(to right, rgb(173, 165, 202) 10%, white);
+    background-image: linear-gradient(rgb(173, 165, 202) 10%, white);
     width: 90vw;
     margin: auto;
     margin-top: 2vw;
