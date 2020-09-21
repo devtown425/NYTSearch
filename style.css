@@ -1,0 +1,50 @@
+.navbar {
+    height: 12vw;
+    background-color: rgb(45, 40, 105);
+    color: white;
+    
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.navtext {
+    margin: auto;
+    width: 100%;
+    padding: 2vw;
+    font-size: 50px;
+}
+
+.article-container {
+    background-image: linear-gradient(to right, rgb(173, 165, 202) 10%, white);
+    width: 90vw;
+    margin: auto;
+    margin-top: 2vw;
+    border: solid;
+    padding-left: 4vw;
+    padding-top: 1vw;
+    padding-right: 4vw;
+    padding-bottom: 1vw;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 40px;
+    border-bottom: solid;
+    margin-bottom: 1vw;
+    padding: 1vw;
+    width: 100%;
+}
+
+h2 {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: .5vw;
+}
